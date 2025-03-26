@@ -11,6 +11,12 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("I create a new repository for this project");
+            Dosomething();
+        }
+
+        private static void Dosomething()
+        {
+            Console.WriteLine("Do something ");
         }
     }
 }
